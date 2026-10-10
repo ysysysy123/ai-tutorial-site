@@ -1,0 +1,58 @@
+.md-content .jp-Notebook {
+  padding: 0;
+  background: transparent;
+  --jp-content-font-size1: 16px;
+  --jp-code-font-size: 13px;
+  --jp-content-font-family: var(--md-text-font-family);
+  --jp-code-font-family: var(--md-code-font-family);
+}
+
+.md-content .jp-RenderedHTMLCommon {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--md-default-fg-color);
+}
+
+.md-content .jp-RenderedHTMLCommon img {
+  max-width: 100%;
+  height: auto;
+}
+
+.md-content .jp-InputArea-editor,
+.md-content .jp-OutputArea-output,
+.md-content .jp-RenderedHTMLCommon table,
+.md-typeset .mermaid {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.md-content .jp-Notebook {
+  --jp-layout-color0: var(--md-default-bg-color);
+  --jp-layout-color1: var(--md-default-bg-color);
+  --jp-cell-editor-background: var(--md-code-bg-color);
+  --jp-content-font-color1: var(--md-default-fg-color);
+  --jp-ui-font-color1: var(--md-default-fg-color);
+}
+
+.md-content .jp-RenderedText pre {
+  color: var(--md-default-fg-color);
+}
+
+.notebook-download,
+.tutorial-attribution {
+  font-size: 0.7rem;
+}
+
+.tutorial-attribution {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+@media (max-width: 600px) {
+  .md-content .jp-Cell {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+

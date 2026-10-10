@@ -1,0 +1,7 @@
+.venv/
+_source/
+site/
+.cache/
+mkdocs.generated.yml
+__pycache__/
+

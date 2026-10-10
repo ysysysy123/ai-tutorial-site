@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if page.nb_url %}
+    <p class="notebook-download"><a href="{{ page.nb_url }}" download>下载本篇 Notebook</a></p>
+  {% endif %}
+  {{ super() }}
+  <p class="tutorial-attribution">
+    教程来源：<a href="https://github.com/Akun-python/autumn-recruitment">Akun-python/autumn-recruitment</a>。
+    <a href="{{ 'LICENSE' | url }}">MIT 许可证全文</a>。
+  </p>
+{% endblock %}
+
